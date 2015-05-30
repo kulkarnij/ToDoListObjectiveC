@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddToDoItemViewController.h
 //  ToDoListObjectiveC
 //
 //  Created by Jitendra Kulkarni on 5/28/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItem.h"
 
-@interface ViewController : UIViewController
-
-
+@interface AddToDoItemViewController : UIViewController
+@property ToDoItem *toToItem;
 @end
-
